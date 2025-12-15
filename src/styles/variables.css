@@ -1,0 +1,32 @@
+:root {
+  --navbar-height: 60px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --radius: 8px;
+  --transition: 0.2s ease;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #1a1a1a;
+  --bg-hover: #272727;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --accent: #ff4444;
+  --accent-hover: #ff6666;
+  --border: #303030;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-hover: #e8e8e8;
+  --text-primary: #0f0f0f;
+  --text-secondary: #606060;
+  --accent: #ff4444;
+  --accent-hover: #ff6666;
+  --border: #e0e0e0;
+}
