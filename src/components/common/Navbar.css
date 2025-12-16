@@ -41,8 +41,12 @@
   gap: 10px;
 }
 
-.logo-bold {
+[data-theme="dark"] .logo-bold {
   color: white;
+}
+
+[data-theme="light"] .logo-bold {
+  color: black;
 }
 
 .logo-text {
